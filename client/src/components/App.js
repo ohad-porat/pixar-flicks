@@ -29,6 +29,7 @@ const App = (props) => {
       <Switch>
         <Route exact path="/">
           <h2>Best Pixar Movies</h2>
+          <img src="https://miro.medium.com/max/720/1*p-TE2kYOLykOAiP2uD-4pQ.jpeg" />
         </Route>
         <Route exact path="/users/new" component={RegistrationForm} />
         <Route exact path="/user-sessions/new" component={SignInForm} />
